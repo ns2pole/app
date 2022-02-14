@@ -1,1 +1,42 @@
-test2
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>タイトル</title>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/main.css') }}/>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+             <h1>navbar</h1>
+        </div>
+
+        <div class="menu">
+             <div class="bar bar1"></div>
+             <div class="bar bar2"></div>
+             <div class="bar bar3"></div>
+        </div>
+
+        <ul class="nav-links">
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./about.html">About</a></li>
+             <li><a href="#">Service</a></li>
+             <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<div class="box1">
+    <p>ここに文章</p>
+</div>
+<br>
+<select class="choice">
+    <option value="first">First Value</option>
+    <option value="second" selected>Second Value</option>
+    <option value="third">Third Value</option>
+</select>
+<br>
+<button type="button" id="btn1">今日は何日ですか？</button>
+<br>
+<input type="text" id="tBox"/>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="static/js/main.js"></script>
